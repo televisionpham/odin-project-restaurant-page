@@ -1,1 +1,1 @@
-console.log("Hello");
+(()=>{"use strict";document.getElementById("content").appendChild((()=>{const n=document.createElement("header");return n.innerHTML='<nav class="container">\n  <ul>\n      <li><a class="nav-link" href="#home" name="home">Home</a></li>\n      <li><a class="nav-link" href="#menu" name="menu">Menu</a></li>\n      <li><a class="nav-link" href="#contact" name="contact">Contact</a></li>\n  </ul>\n</nav>',n})()),document.quer})();
