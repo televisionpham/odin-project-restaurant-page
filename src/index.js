@@ -6,5 +6,20 @@ import Contact from "./components/contact";
 const content = document.getElementById("content");
 
 content.appendChild(Header());
+content.appendChild(Home());
 
-document.quer
+document.querySelector('a[name="home"]').addEventListener('click', () => {
+    document.querySelector('main').remove()
+    content.appendChild(Home())
+})
+
+
+document.querySelector('a[name="menu"]').addEventListener('click', () => {
+    document.querySelector('main').remove()
+    content.appendChild(Menu())
+})
+
+document.querySelector('a[name="contact"]').addEventListener('click', () => {
+    document.querySelector('main').remove()
+    content.appendChild(Contact())
+})

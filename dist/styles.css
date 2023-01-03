@@ -5,7 +5,7 @@
 }
 
 :root {
-    --red: #991b1b; 
+    --red: #991b1b;
 }
 
 html {
@@ -24,7 +24,7 @@ main {
     max-width: 1200px;
     width: min(1200px, 100vw);
     margin: 0 auto;
-    padding: 1rem;        
+    padding: 1rem;
 }
 
 header {
@@ -32,23 +32,25 @@ header {
     position: fixed
 }
 
-nav > ul {
-    display: flex;    
+nav>ul {
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 4rem;
 }
 
 .nav-link {
-    text-decoration: none; 
-    color: white;   
+    text-decoration: none;
+    color: white;
 }
 
-nav > ul > li {
+nav>ul>li {
     list-style: none;
 }
 
-#home, #menu, #contact{
+#home,
+#menu,
+#contact {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,8 +67,8 @@ nav > ul > li {
 }
 
 .card-title {
-    font-size: 1.5rem;   
-    margin-bottom: 0.5rem;     
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .card-content {

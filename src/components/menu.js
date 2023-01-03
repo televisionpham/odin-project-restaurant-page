@@ -1,6 +1,6 @@
 const Menu = () => {
-  const element = document.createElement("main");
-  element.innerHTML = `<div class="container">    
+    const element = document.createElement("main");
+    element.innerHTML = `<div class="container">    
     <div id="menu">
         <h1>Menu</h1>
         <h2>Beverages</h2>
@@ -13,7 +13,7 @@ const Menu = () => {
                 in
                 reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </div>
-            <img src="./images/drink-01.JPG" class="card-image">
+            <img src="./images/drink-01.jpg" class="card-image">
             <div class="card-footer">
                 <strong>Price: $100</strong>
             </div>
@@ -27,7 +27,7 @@ const Menu = () => {
                 in
                 reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </div>
-            <img src="./images/drink-02.JPG" class="card-image">
+            <img src="./images/drink-02.jpg" class="card-image">
             <div class="card-footer">
                 <strong>Price: $100</strong>
             </div>
@@ -35,7 +35,7 @@ const Menu = () => {
     </div>    
 </div>`;
 
-  return element;
+    return element;
 };
 
 export default Menu;
