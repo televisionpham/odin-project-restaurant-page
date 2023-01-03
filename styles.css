@@ -29,7 +29,8 @@ main {
 
 header {
     background-color: var(--red);
-    position: fixed
+    position: fixed;
+    width: 100%;
 }
 
 nav>ul {
